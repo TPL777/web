@@ -18,7 +18,7 @@ app.post('/cadastrar/salvar', (requisicao, resposta) => {
 })
 
 app.get('/cadastrar', (requisicao, resposta) => {
-    resposta.sendFile(${caminhoBase}/cadastro.html)
+    resposta.sendFile(`${caminhoBase}`/cadastro.html)
 })
 
 app.get('/usuarios', (requisicao, resposta) => {
